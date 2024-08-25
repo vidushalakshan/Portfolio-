@@ -4,3 +4,10 @@
   --light: #F2F2F2;
   --dark: #2C3E50;
 }
+
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  z-index: 99999;
+}

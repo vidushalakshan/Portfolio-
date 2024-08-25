@@ -5,9 +5,22 @@
   --dark: #2C3E50;
 }
 
+/* start spinner content */
 #spinner {
   opacity: 0;
   visibility: hidden;
   transition: opacity .5s ease-out, visibility 0s linear 0s;
   z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 991.98px) {
+  .sticky-lg-top.vh-100 {
+    height: 100% !important;
+  }
 }

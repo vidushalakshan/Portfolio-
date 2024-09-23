@@ -50,3 +50,12 @@
 
 /* end about me section */
 
+.progress {
+  height: 5px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  transition: 2s;
+}
+

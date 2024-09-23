@@ -59,3 +59,28 @@
   transition: 2s;
 }
 
+/* end about me section */
+
+/* start service section */
+.service-item {
+  padding: 30px;
+  text-align: center;
+  background: var(--secondary);
+}
+
+.service-item i {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--light);
+  color: var(--primary);
+  transition: .5s;
+}
+
+.service-item:hover i {
+  background: var(--primary);
+  color: var(--light);
+}
+

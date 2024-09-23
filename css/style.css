@@ -84,3 +84,39 @@
   color: var(--light);
 }
 
+/* end service section */
+
+/* start portfolio section */
+
+.portfolio-item .portfolio-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  font-size: 90px;
+  background: rgba(44, 62, 80, .9);
+  opacity: 0;
+  transition: .5s;
+}
+
+.portfolio-item:hover .portfolio-btn {
+  opacity: 1;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  top: 30px;
+  left: 30px;
+}
+
+.portfolio-item i {
+  opacity: 0;
+  transition: .3s;
+  transition-delay: .3s;
+}
+
+.portfolio-item:hover i {
+  opacity: 1;
+}
+
+
+/* end fortfolio section */
